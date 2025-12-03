@@ -57,6 +57,16 @@ Smoothie recipe sharing app
 
 ---
 
+**Bug:** *Page not found (404) after login.*
+
+**Cause:** *No redirect URL was specified.*
+
+**Solution:** *Added (*LOGIN_REDIRECT_URL = '/'* and *LOGOUT_REDIRECT_URL = '/'*) to settings.py.*
+
+**Result:** *Users are now redirected to the mainpage of the app after login/logout.*
+
+---
+
 
 ## Credits
 
