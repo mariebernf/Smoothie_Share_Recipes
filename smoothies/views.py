@@ -1,11 +1,27 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.decorators import login_required
+from django.contrib.auth.forms import UserCreationForm
+from django.contrib.auth import login
 from .models import Smoothie
 from .forms import SmoothieForm
+
+
+def signup(request):
+    if request.method == 'POST':
+        form = UserCreationForm(request.POST)
+        if form.is_valid():
+            user = form.save()
+            login(request, user)
+            return redirect('smoothie_list')
+    else:
+        form = UserCreationForm()
+    return render(request, 'smoothies/signup.html', {'form': form})
+
 
 def smoothie_list(request):
     smoothies = Smoothie.objects.all().order_by('-date_created')
     return render(request, 'smoothies/smoothie_list.html', {'smoothies': smoothies})
+
 
 @login_required
 def smoothie_create(request):
@@ -19,6 +35,7 @@ def smoothie_create(request):
     else:
         form = SmoothieForm()
     return render(request, 'smoothies/smoothie_form.html', {'form': form})
+
 
 @login_required
 def smoothie_update(request, pk):
@@ -36,6 +53,7 @@ def smoothie_update(request, pk):
         form = SmoothieForm(instance=smoothie)
 
     return render(request, 'smoothies/smoothie_form.html', {'form': form})
+
 
 @login_required
 def smoothie_delete(request, pk):
