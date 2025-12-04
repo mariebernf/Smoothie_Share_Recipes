@@ -67,6 +67,16 @@ Smoothie recipe sharing app
 
 ---
 
+**Bug:** *Footer was showing in the middle of the page.*
+
+**Cause:** *Page layout did not push the footer to the bottom of the page.*
+
+**Solution:** *Added full-height layout to style.css.*
+
+**Result:** *Footer now appears at the bottom of the page, with social media icons.*
+
+---
+
 
 ## Credits
 
