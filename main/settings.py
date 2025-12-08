@@ -26,7 +26,11 @@ DEBUG = config('DEBUG', default=True, cast=bool)
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1" "https://smoothieshare-b6617971ad25.herokuapp.com/"]
+ALLOWED_HOSTS = [
+    "localhost",
+    "127.0.0.1",
+    "smoothieshare-b6617971ad25.herokuapp.com"
+]
 
 # Application definition
 
