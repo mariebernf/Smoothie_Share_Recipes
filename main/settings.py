@@ -29,7 +29,7 @@ DEBUG = config('DEBUG', default=True, cast=bool)
 ALLOWED_HOSTS = [
     "localhost",
     "127.0.0.1",
-    "smoothieshare-b6617971ad25.herokuapp.com",
+    "smoothie-share-2b7306a5b549.herokuapp.com",
 ]
 
 # Application definition
