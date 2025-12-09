@@ -76,7 +76,15 @@ Smoothie recipe sharing app
 **Result:** *Footer now appears at the bottom of the page, with social media icons.*
 
 ---
+**Bug:** *Heroku deployment issues.*
 
+**Cause:** *Used the wrong app name and database.*
+
+**Solution:** *Used the correct app name and set up PostgreSQL.*
+
+**Result:** *App deployed successfully.*
+
+---
 
 ## Credits
 
