@@ -7,6 +7,13 @@ Smoothie recipe sharing app
 
 ## User stories
 
+| User Story | Requirement Met | Implementation | Screenshot |
+|------------|----------------|----------------|------------|
+| As a user, I want to create an account easily so that I can access the website's features. | Signup form | Users can create an account through a sign-up form. Once submitted and validated, the user is logged in and can view and add smoothie recipes. | |
+| As a user, I want to add my smoothie recipes so I can share them with other users. | Smoothie creation form | Users can add smoothie recipes via a form to input the title, description, and ingredients. | |
+| As a user, I want to edit my smoothie recipes. | Edit functionality | Users can edit only the smoothie recipes they created. | |
+| As a user, I want to delete my smoothie recipes. | Delete functionality | Users can delete only the recipes they created. | |
+
 ## Features
 
 ## Future Features
