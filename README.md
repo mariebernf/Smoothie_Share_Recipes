@@ -24,9 +24,38 @@ The project requirements are to create and deploy a data centric web application
 
 ## Design
 
+The design of the Smoothie Share app focuses on clarity and accessibility with a modern and minimalist layout. It is kept simple with a strong contrast between black and white, making the content easy to read while the buttons have colour to make key actions stand out.
+
+<img src="docs/Screenshots/HomePageSS.jpg" width="250px" />
+<br>
+<img src="docs/Screenshots/EditSS.jpg" width="250px" />
+
 ### Colour scheme
 
+| Element | Colour | Purpose | 
+|------------|----------------|----------------|
+| Navbar background | Black (#000000)  | Strong contrast, clean and modern look. | 
+| Navbar text and buttons | White (#FFFFFF) | High readability against black. | 
+| Footer background |  Black (#000000) | Matches the Navbar. | 
+| Footer social icons | White → Light Gray on hover (#CCCCCC) | Subtle feedback. | 
+| page background | White (#FFFFFF) | Clean and makes the content easy to read. | 
+
+### Button Styling
+
+| Element | Colour | Purpose | 
+|------------|----------------|----------------|
+| Add Smoothie  | Green  | Indicates a positive action. | 
+| Edit button | Blue | Standard action for editing content. | 
+| Delete button | Red | Brings attention to a desctructive action. | 
+
+
 ### Typography
+
+* Primary Font: Montserrat from Google Fonts.
+
+* Fallback Font: sans-serif for Montserrat in case it doesn't load.
+
+* Montserrat is clean and great for readability. It complements the minimalist colour of the website.
 
 ### Wireframe
 
