@@ -29,6 +29,8 @@ The design of the Smoothie Share app focuses on clarity and accessibility with a
 <img src="docs/Screenshots/HomePageSS.jpg" width="250px" />
 <br>
 <img src="docs/Screenshots/EditSS.jpg" width="250px" />
+<br>
+<img src="docs/Screenshots/LoginFooterSS.jpg" width="250px" />
 
 ### Colour scheme
 
