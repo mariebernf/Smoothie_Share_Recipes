@@ -1,7 +1,8 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.forms import UserCreationForm
-from django.contrib.auth import login
+from django.contrib.auth import login, logout
 from django.contrib.auth.decorators import login_required
+from django.contrib import messages
 from .models import Smoothie
 from .forms import SmoothieForm
 
@@ -11,6 +12,7 @@ def signup(request):
         if form.is_valid():
             user = form.save()
             login(request, user)
+            messages.success(request, "Account created successfully! You are now logged in.")
             return redirect('smoothie_list')
     else:
         form = UserCreationForm()
@@ -27,6 +29,7 @@ def smoothie_create(request):
         smoothie = form.save(commit=False)
         smoothie.author = request.user
         smoothie.save()
+        messages.success(request, "Smoothie created successfully!")
         return redirect('smoothie_list')
     return render(request, 'smoothies/smoothie_form.html', {'form': form})
 
@@ -36,6 +39,7 @@ def smoothie_update(request, pk):
     form = SmoothieForm(request.POST or None, instance=smoothie)
     if form.is_valid():
         form.save()
+        messages.success(request, "Smoothie updated successfully!")
         return redirect('smoothie_list')
     return render(request, 'smoothies/smoothie_form.html', {'form': form})
 
@@ -44,5 +48,6 @@ def smoothie_delete(request, pk):
     smoothie = get_object_or_404(Smoothie, pk=pk, author=request.user)
     if request.method == 'POST':
         smoothie.delete()
+        messages.success(request, "Smoothie deleted successfully.")
         return redirect('smoothie_list')
     return render(request, 'smoothies/smoothie_confirm_delete.html', {'smoothie': smoothie})
