@@ -1,22 +1,27 @@
 # Wireframes
 
-## Home Page
-Mobile View:  
-![Home Page Mobile](docs/Wireframes/MobileWireframeHome.png)  
+The following wireframes show the Smoothie Share app layout for **mobile devices first**, followed by **laptop/desktop view** for the same page. This demonstrates the app’s responsive design.
 
-Laptop View:  
-![Home Page Laptop](docs/Wireframes/WireframeHomePage.png)  
+---
+
+## Home Page
+**Mobile:**  
+![Home Page Mobile](docs/Wireframes/MobileWireframeHome.png)  
+**Laptop:**  
+![Home Page Laptop](docs/Wireframes/WireframeHomePage.png)
+
+---
 
 ## Add Smoothie Page
-Mobile View:  
+**Mobile:**  
 ![Add Page Mobile](docs/Wireframes/MobileWireframeAdd.png)  
+**Laptop:**  
+![Add Page Laptop](docs/Wireframes/WireframeAddPage.png)
 
-Laptop View:  
-![Add Page Laptop](docs/Wireframes/WireframeAddPage.png)  
+---
 
 ## User Page
-Mobile View:  
+**Mobile:**  
 ![User Page Mobile](docs/Wireframes/mobileWireframeUser.png)  
-
-Laptop View:  
-![User Page Laptop](docs/Wireframes/WireframeUserPage.png)  
+**Laptop:**  
+![User Page Laptop](docs/Wireframes/WireframeUserPage.png)

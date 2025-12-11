@@ -61,6 +61,8 @@ The design of the Smoothie Share app focuses on clarity and accessibility with a
 
 ### Wireframe
 
+You can view the wireframes for both mobile and larger screens [here](wireframes.md).
+
 ## Technologies used
 
 ## Tools used
