@@ -1,10 +1,22 @@
 # Wireframes
 
 ## Home Page
-![Home Page Wireframe](docs/Wireframes/WireframeHomePage.png)
+Mobile View:  
+![Home Page Mobile](docs/Wireframes/MobileWireframeHome.png)  
+
+Laptop View:  
+![Home Page Laptop](docs/Wireframes/WireframeHomePage.png)  
 
 ## Add Smoothie Page
-![Add Smoothie Wireframe](docs/Wireframes/WireframeAddPage.png)
+Mobile View:  
+![Add Page Mobile](docs/Wireframes/MobileWireframeAdd.png)  
+
+Laptop View:  
+![Add Page Laptop](docs/Wireframes/WireframeAddPage.png)  
 
 ## User Page
-![User Page Wireframe](docs/Wireframes/WireframeUserPage.png)
+Mobile View:  
+![User Page Mobile](docs/Wireframes/mobileWireframeUser.png)  
+
+Laptop View:  
+![User Page Laptop](docs/Wireframes/WireframeUserPage.png)  
