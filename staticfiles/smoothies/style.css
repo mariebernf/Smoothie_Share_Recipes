@@ -1,52 +1,31 @@
-/* Full height layout */
 html, body {
     height: 100%;
 }
 
 body {
-    background-color: #ffffff;  /* WHITE background */
+    background-color: #FFFACD;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     font-family: 'Montserrat', sans-serif;
-}
+}    
 
-/* Main content */
 main {
-    flex: 1;
+     flex: 1;
 }
 
-/* NAVBAR (black background, white text) */
-nav {
-    background-color: #000000;   /* BLACK */
-    color: #ffffff;              /* WHITE text */
+nav { 
+    background-color: #5D6D7E;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
-/* Navbar */
-.navbar-brand,
-.navbar a,
-nav .btn-outline-light {
-    color: #ffffff !important;
-    border-color: #ffffff !important;
+footer {  
+    background-color: #5D6D7E; 
+    color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
-/* Hover effect for navbar buttons */
-nav .btn-outline-light:hover {
-    background-color: #ffffff !important;
-    color: #000000 !important;   /* black text on hover */
-}
-
-/* FOOTER (black background, white text) */
-footer {
-    background-color: #000000;   /* BLACK */
-    color: #ffffff;
-}
-
-/* Social Media Icons */
-footer a {
-    color: #ffffff;
-}
-
-footer a:hover {
-    color: #cccccc; /* hover effect */
+.navbar-brand {
+    color: white;
 }

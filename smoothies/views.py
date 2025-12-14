@@ -6,10 +6,6 @@ from .models import Smoothie
 from .forms import SmoothieForm
 
 
-def footer_test(request):
-    return render(request, 'footer_test.html')
-
-
 def signup(request):
     if request.method == 'POST':
         form = UserCreationForm(request.POST)

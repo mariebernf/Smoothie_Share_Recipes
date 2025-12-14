@@ -1,46 +1,31 @@
-/* Full height layout */
 html, body {
     height: 100%;
 }
 
 body {
+    background-color: #FFFACD;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     font-family: 'Montserrat', sans-serif;
-    background-color: #ffffff;
+}    
+
+main {
+     flex: 1;
 }
 
-/* Navbar styling */
-nav {
-    background-color: #000000;
+nav { 
+    background-color: #5D6D7E;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.navbar-brand,
-.navbar a,
-nav .btn-outline-light {
-    color: #ffffff !important;
-    border-color: #ffffff !important;
+footer {  
+    background-color: #5D6D7E; 
+    color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
-nav .btn-outline-light:hover {
-    background-color: #ffffff !important;
-    color: #000000 !important;
-}
-
-/* Footer styling */
-footer {
-    background-color: #000000;
-    color: #ffffff;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-footer a {
-    color: #ffffff;
-}
-
-footer a:hover {
-    color: #cccccc;
+.navbar-brand {
+    color: white;
 }
